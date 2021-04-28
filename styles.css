@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(163, 218, 218);
+    border: 5px solid lightyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgBox{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 50%;
+}
+.whiteBox{
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: lightyellow;
+    height: 150px;
+    width: 150px;
+    border: 3px solid black; 
+}
+.hide{
+    display: none;
+}
+.hold{
+    border: 5px solid red;
+}
+.dashed{
+    border: 3px dotted grey;
+    background-color: rgb(233, 142, 169);
+}
